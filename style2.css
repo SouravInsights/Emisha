@@ -1,0 +1,100 @@
+/*--------------------
+Header CTA ========*/
+  .start-text {
+    font-weight: bold;
+    background: rgba(197, 239, 247, 0.7);
+    color: black;
+    padding: 3px 15px;
+    /* transform: skew(40deg); */
+  }
+
+ .entry-item .entry-content > p > span {
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ea2e2b;
+    font-weight: 300;
+    padding: 2px 35px;
+    background: #fff;
+    text-transform: uppercase;
+  }
+
+.entry-content{
+     font-family: 'Oswald', sans-serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    transform: skew(-15deg);
+  }
+ @media (max-width:500px){
+  .entry-content{
+     
+    width: 350px;
+    text-align: center;
+    -webkit-transform: skew(-0deg);
+    -moz-transform: skew(-0deg);
+    -o-transform: skew(-0deg);
+    transform: skew(-0deg);
+  }
+  }
+.entry-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 46px;
+    line-height: 52px;
+    text-transform: uppercase;
+    background: rgba(197, 239, 247, 0.74);
+    padding: 20px;
+    margin-bottom: 3px;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+
+}
+.entry-title a{
+  color: black;
+  transform: skew(-15deg);
+}
+.entry-content > p {
+border-bottom: 4px solid #fff;
+margin-bottom: 5px;
+font-size: 24px;
+}
+h5 span {
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  margin-bottom: 5px;
+  padding: 0 6px;
+  display: block;
+  background: rgba(171, 171, 171, 0.73);
+  padding: 5px 10px;
+  color: #FFFFFF;
+  margin-bottom: 0;
+  }
+
+
+
+.header-cta {
+  position: absolute;
+  width: 100%;
+  padding: 0 15px;
+  z-index: 50;
+  bottom: 250px;
+  top: 220px;
+}
+
+
+
+.header-cta input[type="submit"] {
+  margin: 0;
+}
+
+
