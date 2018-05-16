@@ -1,36 +1,4 @@
 
-/*
-Template Name: Eventoz	
-Author: MarkUps
-Author URI: http://www.markups.io/
-Version: 1.0
-*/
-
-
-/* Table of Content
-==================================================
-#BASIC TYPOGRAPHY
-#HEADER	
-#MENU 
-#ABOUT US
-#VIDEO
-#SCHEDULE
-#SPEAKERS
-#VENUE
-#PRICING PLANS
-#REGISTER FORM
-#FAQ
-#OUR
-#CONTACT US
-#FOOTER
-#RESPONSIVE STYLE
-*/
-
-
-/*--------------------*/
-/* BASIC TYPOGRAPHY */
-/*--------------------*/
-
 body,
 html {
 	overflow-x:hidden;
@@ -399,7 +367,9 @@ button:focus {
 
 
 #mu-about {
-	background-color: #fff;
+	background: #ee0979;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -567,7 +537,9 @@ button:focus {
 /*--------------------*/
 
 #mu-schedule {
-	background-color: #f8f8f8;
+	background: #ee0979;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -719,7 +691,9 @@ button:focus {
 
 
 #mu-speakers {
-	background-color: #fff;
+	background: #ee0979;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -979,7 +953,9 @@ button:focus {
 /*--------------------*/
 
 #mu-sponsors {
-	background-color: #fff;
+	background: #ee0979;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1014,7 +990,9 @@ button:focus {
 /*--------------------*/
 
 #mu-faq {
-	background-color: #ffffff;
+	background: #ee0979;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
 	display: inline;
 	float: left;
 	position: relative;
