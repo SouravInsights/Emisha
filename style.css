@@ -367,9 +367,7 @@ button:focus {
 
 
 #mu-about {
-	background: #ee0979;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+	background-color: #fff;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -537,9 +535,7 @@ button:focus {
 /*--------------------*/
 
 #mu-schedule {
-	background: #ee0979;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+	background-color: #f8f8f8;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -691,9 +687,7 @@ button:focus {
 
 
 #mu-speakers {
-	background: #ee0979;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+	background-color: #fff;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -953,9 +947,7 @@ button:focus {
 /*--------------------*/
 
 #mu-sponsors {
-	background: #ee0979;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+	background-color: #fff;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -990,9 +982,7 @@ button:focus {
 /*--------------------*/
 
 #mu-faq {
-	background: #ee0979;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+	background-color: #ffffff;
 	display: inline;
 	float: left;
 	position: relative;
