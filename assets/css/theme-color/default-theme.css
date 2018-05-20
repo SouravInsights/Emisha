@@ -65,17 +65,15 @@
         background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
 }
 
-.mu-contact-form .form-control:focus,
-.mu-schedule-menu li a {
-	border: 1px solid #1071F2;    
-} 
+
+
 
 .mu-send-msg-btn,
 .mu-send-msg-btn:focus,
 .mu-register-btn:hover,
 .mu-register-btn:focus,
 .mu-popular-price .mu-register-btn {
-	border: 1px solid #1071F2;
+	
 	background: #ee0979;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
@@ -88,5 +86,5 @@
 	background: #ee0979;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
-	border: 2px solid #1071F2;
+	
 }
