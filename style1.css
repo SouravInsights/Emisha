@@ -14,7 +14,7 @@
 	}
 	#left, #right {
 		top: 0; bottom: 0;
-		width: 4px;
+		width: 0px;
 		}
 		#left { left: 0; }
 		#right { right: 0; }
