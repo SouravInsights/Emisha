@@ -30,12 +30,10 @@
 
 
 	jQuery(window).bind('scroll', function () {
-    if ($(window).scrollTop() > 150) {
+  
         $('.mu-navbar').addClass('mu-nav-show');
         
-	    } else {
-	        $('.mu-navbar').removeClass('mu-nav-show');
-	    }
+	  
 	});
 
 	/* ----------------------------------------------------------- */
