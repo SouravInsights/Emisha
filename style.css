@@ -194,14 +194,7 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/head-featured-bg.png");
-	display: inline;
-	float: left;
-	width: 100%;
-	background-position: center center;
-	background-attachment: fixed;
-	-webkit-background-size: cover;
-	background-size: cover;
+
 }
 
 .mu-hero-overlay {
@@ -404,17 +397,13 @@ button:focus {
 }
 
 .mu-about-left {
-	display: inline;
-	float: left;
-	width: 100%;
-    margin-left: 10px;
+
+    margin-top: 20%;
 }
 
 .mu-about-right {
-	display: inline;
-	float: left;
-	margin-top: 22px;
-	width: 100%;
+	
+	margin-top: 10%;
 }
 
 
@@ -1668,3 +1657,8 @@ button:focus {
 	
 }
 
+@media all and (min-width: 300px) {
+	.mu-about-left {
+	 margin-top: 20%;
+	}
+  }
