@@ -395,6 +395,11 @@ button:focus {
 	z-index: 10;
 	text-transform: capitalize;
 }
+.SubGroupsHeading {
+	text-align: center;
+	border-bottom: 3px;
+	padding: 80px 0;
+}
 
 .mu-about-left {
 
@@ -532,9 +537,13 @@ button:focus {
 
 #mu-schedule {
 	background-color: #f8f8f8;
-	display: inline;
+	
 	float: left;
 	width: 100%;
+}
+
+.SubGroups {
+	background-color: #e0ffff;	
 }
 
 .mu-schedule-area {
