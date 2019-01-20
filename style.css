@@ -1191,7 +1191,7 @@ button:focus {
 .mu-footer-area{
 	display: inline;
 	float: left;
-	padding: 10px 0;
+	padding: 5px 0;
 	text-align: center;
 	width: 100%;
 }
@@ -1205,7 +1205,7 @@ button:focus {
 .mu-social-media {
 	display: inline;
 	float: left;
-	padding: 60px 0;
+	padding: 40px 0;
 	width: 100%;
 }
 
@@ -1223,6 +1223,7 @@ display: block;
 
 .mu-copy-right {
 font-size: 15px;
+
 }
 
 @media (max-width: 400px) {
