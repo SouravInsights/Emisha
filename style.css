@@ -326,13 +326,11 @@ button:focus {
 /*--------------------*/
 
 #mu-hero .navbar-default {
-	background-color: #fff;
-	border-color: #e7e7e7;
-	padding: 5px 0;
+
 }
 
 .mu-navbar {
-	top: -150px;
+	
 	
 }
 
@@ -341,16 +339,11 @@ button:focus {
 }
 
 #mu-hero .navbar-default .navbar-brand {
-	padding: 15px 15px;
-	font-size: 28px;
-	line-height: 20px;
+	
 }
 
 .mu-navbar .mu-menu li a {
-	color: #333;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
+
 }
 
 .navbar-default .navbar-nav > .active > a, 
@@ -963,7 +956,7 @@ button:focus {
 .mu-sponsors-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding: 50px 0;
 	width: 100%;
 }
 
@@ -1205,7 +1198,7 @@ button:focus {
 .mu-social-media {
 	display: inline;
 	float: left;
-	padding: 40px 0;
+	padding: 60px 0;
 	width: 100%;
 }
 
