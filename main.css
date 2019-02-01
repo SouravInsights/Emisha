@@ -1,0 +1,179 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+    font-family: "San Francisco",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+
+.navbar-container .navbar {
+    background-color: #fff;
+    transition: all .2s ease-in;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.2);
+} 
+
+@media (max-width: 991px) {
+    .navbar-container .navbar .navbar-nav {
+        padding: 16px;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #363636;
+    font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+    h1{ 
+        font-size:24px;    
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h3{
+        font-size:20px;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+}
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 300px;
+    }
+}
+
+  .img-fluid {
+    max-width: 100%;
+}
+img {
+    border: none;
+    max-width: 100%;
+}
+
+#about {
+    background-color: #03A9F4;
+    padding: 100px 0;
+}
+@media (max-width:767px) {
+    #about {
+        background-color: #03A9F4;
+        padding: 40px 0;
+    }
+}
+   
+
+#communities {
+    background-color: #90ee90;
+    padding: 100px 0;
+}
+@media (max-width:767px) {
+    #communities {
+        background-color: #90ee90;
+        padding: 50px 0;
+    }
+}
+#events{
+    padding: 100px 0;
+
+}
+@media (max-width:767px){
+    #events{
+        padding: 50px 0; 
+    }
+}
+
+#diversity {
+    background-color: #ffffff;
+    padding: 90px 0;
+}
+@media (max-width:767px) {
+    #diversity {
+        background-color: #ffffff;
+        padding: 50px 0;
+    }
+}
+
+#diversity_carousel {
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+
+.title {
+    padding: 20px;
+}
+
+
+.section-heading{
+    background: #3a56f3; 
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
+    text-align: center;
+    color: #ffffff;
+}
+
+.icon-play{
+    background-image : url(images/slack.png);
+    background-size: cover;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+  }
+
+  /* footer */
+
+#footer {
+    background: #03A9F4 !important;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+
+@media (max-width:767px) {
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+ }
+}
+
+@media (max-width:767px) {
+    .text-justify {
+        font-size: 16px;
+    }
+}
