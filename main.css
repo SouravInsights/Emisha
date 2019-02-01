@@ -181,11 +181,15 @@ img {
 
 /* Beta Badge */
 
-.badge {
+  .badge {
     position: fixed;
     left: -7px;
     top: 19px;
-    background-color: rgb(101, 46, 255);
+    background-color: #4834fd;
+    -webkit-transform: rotate(-45deg) scale(1) skew(0deg) translate(10px);
+    -moz-transform: rotate(-45deg) scale(1) skew(0deg) translate(10px);
+    -o-transform: rotate(-45deg) scale(1) skew(0deg) translate(10px);
+    -ms-transform: rotate(-45deg) scale(1) skew(0deg) translate(10px);
     transform: rotate(-45deg) scale(1) skew(0deg) translate(10px);
     text-align: center;
     color: white;
@@ -193,6 +197,7 @@ img {
     border-top: 0px;
     line-height: 20px;
     margin: 0;
+    border-radius: 0px;
   }
   .badge:after {
       content: ' ';
@@ -200,7 +205,7 @@ img {
       right: -19px;
       top: 0px;
       border-right: 20px solid transparent;
-      border-bottom: 20px solid rgb(101, 46, 255);
+      border-bottom: 20px solid #4834fd;
   }
   .badge:before {
       content: ' ';
@@ -208,5 +213,5 @@ img {
       left: -19px;
       top: 0px;
       border-left: 20px solid transparent;
-      border-bottom: 20px solid rgb(101, 46, 255);
+      border-bottom: 20px solid #4834fd;
   }
