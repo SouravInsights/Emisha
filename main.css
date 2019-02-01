@@ -177,3 +177,36 @@ img {
         font-size: 16px;
     }
 }
+
+
+/* Beta Badge */
+
+.badge {
+    position: fixed;
+    left: -7px;
+    top: 19px;
+    background-color: rgb(101, 46, 255);
+    transform: rotate(-45deg) scale(1) skew(0deg) translate(10px);
+    text-align: center;
+    color: white;
+    padding: 0 .5em;
+    border-top: 0px;
+    line-height: 20px;
+    margin: 0;
+  }
+  .badge:after {
+      content: ' ';
+      position: fixed;
+      right: -19px;
+      top: 0px;
+      border-right: 20px solid transparent;
+      border-bottom: 20px solid rgb(101, 46, 255);
+  }
+  .badge:before {
+      content: ' ';
+      position: fixed;
+      left: -19px;
+      top: 0px;
+      border-left: 20px solid transparent;
+      border-bottom: 20px solid rgb(101, 46, 255);
+  }
