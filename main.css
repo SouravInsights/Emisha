@@ -27,9 +27,9 @@ h1 {
     font-weight: bold;
 }
 @media screen and (max-width: 768px) {
-    h1{ 
-        font-size:24px;    
-        font-weight: bold;
+    h1{   
+        font-size: 25px;
+        line-height: 37px;
     }
 }
 
@@ -79,6 +79,20 @@ img {
         padding: 50px 0;
     }
 }
+
+#communities h1 {
+    color: #0a0a0a;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+@media (max-width:767px) {
+    #communities h1 {
+        margin-bottom: 0px;
+    }
+}
+
 #events{
     padding: 100px 0;
 
@@ -93,6 +107,20 @@ img {
     background-color: #ffffff;
     padding: 90px 0;
 }
+
+#diversity h1 {
+    color: #353576;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+@media (max-width:767px) {
+    #diversity h1 {
+        margin-bottom: 0px;
+    }
+}
+
 @media (max-width:767px) {
     #diversity {
         background-color: #ffffff;
@@ -178,6 +206,12 @@ img {
     }
 }
 
+@media (max-width:767px) {
+    .paragraph {
+        font-size: 17px;
+        line-height: 25px;  
+    }
+}
 
 /* Beta Badge */
 
