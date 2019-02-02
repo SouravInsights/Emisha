@@ -45,7 +45,7 @@ h1 {
 }
 @media only screen and (max-width: 767px) {
     .container {
-        width: 300px;
+        width: 330px;
     }
 }
 
