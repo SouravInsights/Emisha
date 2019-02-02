@@ -28,7 +28,7 @@ h1 {
 }
 @media screen and (max-width: 768px) {
     h1{   
-        font-size: 25px;
+        font-size: 33px;
         line-height: 37px;
     }
 }
