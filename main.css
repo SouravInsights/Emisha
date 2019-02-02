@@ -45,7 +45,7 @@ h1 {
 }
 @media only screen and (max-width: 767px) {
     .container {
-        width: 330px;
+        width: 350px;
     }
 }
 
@@ -55,6 +55,7 @@ h1 {
 img {
     border: none;
     max-width: 100%;
+    margin: 0 auto;
 }
 
 #about {
@@ -133,6 +134,13 @@ img {
     height: auto;
     margin: 0 auto;
 }
+@media (max-width:767px) {
+    #diversity_carousel {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
 
 
 
@@ -208,7 +216,7 @@ img {
 
 @media (max-width:767px) {
     .paragraph {
-        font-size: 17px;
+        font-size: 19px;
         line-height: 25px;  
     }
 }
