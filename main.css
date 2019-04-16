@@ -221,6 +221,44 @@ img {
     }
 }
 
+#get-involved {
+    background-color: #8CEEEE;
+    padding: 90px 0;
+}
+
+#get-involved h1 {
+    color: #353576;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+@media (max-width:767px) {
+    #get-involved h1 {
+        margin-bottom: 0px;
+    }
+}
+
+#get-involved h2 {
+    color: #353576;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+@media (max-width:767px) {
+    #get-involved h2 {
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width:767px) {
+    #get-involved {
+        background-color: #8CEEEE;
+        padding: 50px 0;
+    }
+}
+
 /* Beta Badge */
 
   .badge {
