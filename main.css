@@ -218,7 +218,7 @@ img {
 }
 
 #get-involved {
-  background-color: #8ceeee;
+  background-color: #D8F2F2;
   padding: 90px 0;
 }
 
@@ -290,4 +290,78 @@ img {
   top: 0px;
   border-left: 20px solid transparent;
   border-bottom: 20px solid #4834fd;
+}
+
+.link-2 {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  padding: 0 1px;
+  transition: color ease 0.3s;
+  
+}
+
+.link-2::before, .link-2::after {
+    content: '';
+    position: absolute;
+    background-color: #00B388;
+    z-index: -1;
+    height: 5%;
+  }
+
+.link-2::before {
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    transition: width ease 0.4s;
+  }
+
+.link-2::after {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    transition: all ease 0.6s;
+  }
+
+.link-2:hover::before {
+      width: 100%;
+    }
+
+.link-2:hover::after {
+      left: 100%;
+      width: 0%;
+      transition: all ease 0.2s;
+    }
+.diversityparagraph {
+  padding: 24px;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.9;
+}
+
+.threedbutton-yellow {
+  background-color: #ffbe2e;
+}
+
+.threedbutton {
+  border-color: #1e1e28;
+  border-radius: .25rem;
+  border-width: .25rem!important;
+  box-shadow: -8px 8px 0 #1e1e28;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 8px 32px;
+  transition: transform .2s ease-in-out;
+}
+
+.threedbutton-block {
+  display: inline-block;
+  width: auto;
+}
+
+.mt-4 {
+  margin-top: 1.5rem!important;
+  margin-right: 1.5rem;
 }
