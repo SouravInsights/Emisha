@@ -70,12 +70,12 @@ img {
 }
 
 #communities {
-  background-color: #90ee90;
+  background-color: #F2F2F2;
   padding: 100px 0;
 }
 @media (max-width: 767px) {
   #communities {
-    background-color: #90ee90;
+    background-color: #F2F2F2;
     padding: 50px 0;
   }
 }
@@ -164,7 +164,7 @@ img {
 /* footer */
 
 #footer {
-  background: #03a9f4 !important;
+  background: rgb(39, 51, 57) !important;
 }
 
 #footer a {
@@ -218,7 +218,7 @@ img {
 }
 
 #get-involved {
-  background-color: #D8F2F2;
+  background-color: #F2F2F2;
   padding: 90px 0;
 }
 
@@ -250,7 +250,7 @@ img {
 
 @media (max-width: 767px) {
   #get-involved {
-    background-color: #8ceeee;
+    background-color: #F2F2F2;
     padding: 50px 0;
   }
 }
