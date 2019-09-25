@@ -1,9 +1,15 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
 body {
   font-family: "San Francisco", Helvetica, Arial, sans-serif;
   font-size: 20px;
   overflow-x: hidden;
+
 }
+
+/* * banner start */
+
+/* *banner end */
 
 .navbar-container .navbar {
   background-color: #fff;
@@ -26,6 +32,7 @@ h1 {
   color: #363636;
   font-weight: bold;
 }
+
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 30px;
@@ -43,6 +50,7 @@ h1 {
   margin: 0 auto;
   padding: 0;
 }
+
 @media only screen and (max-width: 767px) {
   .container {
     width: 350px;
@@ -52,6 +60,7 @@ h1 {
 .img-fluid {
   max-width: 100%;
 }
+
 img {
   border: none;
   max-width: 100%;
@@ -62,6 +71,7 @@ img {
   background-color: #03a9f4;
   padding: 100px 0;
 }
+
 @media (max-width: 767px) {
   #about {
     background-color: #03a9f4;
@@ -73,6 +83,7 @@ img {
   background-color: #F2F2F2;
   padding: 100px 0;
 }
+
 @media (max-width: 767px) {
   #communities {
     background-color: #F2F2F2;
@@ -133,6 +144,7 @@ img {
   height: auto;
   margin: 0 auto;
 }
+
 @media (max-width: 767px) {
   #diversity_carousel {
     max-width: 100%;
@@ -173,9 +185,11 @@ img {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
+
 #footer ul.social li {
   padding: 3px 0;
 }
+
 #footer ul.social li a i {
   margin-right: 5px;
   font-size: 25px;
@@ -183,14 +197,17 @@ img {
   -moz-transition: 0.5s all ease;
   transition: 0.5s all ease;
 }
+
 #footer ul.social li:hover a i {
   font-size: 30px;
   margin-top: -10px;
 }
+
 #footer ul.social li a,
 #footer ul.quick-links li a {
   color: #ffffff;
 }
+
 #footer ul.social li a:hover {
   color: #eeeeee;
 }
@@ -275,6 +292,7 @@ img {
   margin: 0;
   border-radius: 0px;
 }
+
 .badge:after {
   content: " ";
   position: fixed;
@@ -283,6 +301,7 @@ img {
   border-right: 20px solid transparent;
   border-bottom: 20px solid #4834fd;
 }
+
 .badge:before {
   content: " ";
   position: fixed;
@@ -299,40 +318,42 @@ img {
   color: black;
   padding: 0 1px;
   transition: color ease 0.3s;
-  
+
 }
 
-.link-2::before, .link-2::after {
-    content: '';
-    position: absolute;
-    background-color: #00B388;
-    z-index: -1;
-    height: 5%;
-  }
+.link-2::before,
+.link-2::after {
+  content: '';
+  position: absolute;
+  background-color: #00B388;
+  z-index: -1;
+  height: 5%;
+}
 
 .link-2::before {
-    width: 0%;
-    left: 0;
-    bottom: 0;
-    transition: width ease 0.4s;
-  }
+  width: 0%;
+  left: 0;
+  bottom: 0;
+  transition: width ease 0.4s;
+}
 
 .link-2::after {
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    transition: all ease 0.6s;
-  }
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  transition: all ease 0.6s;
+}
 
 .link-2:hover::before {
-      width: 100%;
-    }
+  width: 100%;
+}
 
 .link-2:hover::after {
-      left: 100%;
-      width: 0%;
-      transition: all ease 0.2s;
-    }
+  left: 100%;
+  width: 0%;
+  transition: all ease 0.2s;
+}
+
 .diversityparagraph {
   padding: 24px;
   font-size: 22px;
@@ -347,7 +368,7 @@ img {
 .threedbutton {
   border-color: #1e1e28;
   border-radius: .25rem;
-  border-width: .25rem!important;
+  border-width: .25rem !important;
   box-shadow: -8px 8px 0 #1e1e28;
   color: #ffffff;
   font-size: 1.25rem;
@@ -362,6 +383,6 @@ img {
 }
 
 .mt-4 {
-  margin-top: 1.5rem!important;
+  margin-top: 1.5rem !important;
   margin-right: 1.5rem;
 }
