@@ -17,7 +17,8 @@ body {
   padding-bottom: 3px;
   box-sizing: border-box !important;
   min-width: 100%;
-  background-color: #05c46b;
+  /* background-color: #05c46b; */
+  background-color: #3f51b5;
   height: 45px;
   position: fixed;
 }
