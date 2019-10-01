@@ -12,6 +12,15 @@ body {
 }
 
 /* * banner start */
+.banner {
+  padding-top: 5px;
+  padding-bottom: 3px;
+  box-sizing: border-box !important;
+  min-width: 100%;
+  background-color: #05c46b;
+  height: 45px;
+  position: fixed;
+}
 
 /* *banner end */
 

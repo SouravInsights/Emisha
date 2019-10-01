@@ -8,8 +8,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <!-- Roboto Font CDN -->
-     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <!-- fontawesome CDN -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- Roboto Font CDN -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -23,10 +25,25 @@
         <div class="badge">Beta</div>
     </div>
 
-    <!-- *banner start -->
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-    <!-- *banner end -->
+
+    <!-- <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" /> -->
+    <!-- -->
+    <div class="banner">
+        <div class="container">
+            <p style="display:inline-block;">Upcoming Event 💛 <i class="fa fa-arrow-right" style="color:#d2dae2">
+                </i> Hactoberfest Extended Bbsr.
+                <a style="display:inline-block;font-weight:bold;color:black;" class=" js-scroll-trigger"
+                    href="#events">Visit Event</a>
+            </p>
+
+            <i style="float:right;color:#fff !important;" class="fa fa-window-close close"></i>
+        </div>
+
+    </div>
+
+
+
 
     <header id="header">
         <div class="hero-section">
@@ -52,8 +69,12 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#communities">Communities</a>
                         </li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#events">Events</a></li>
+
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#get-involved">Get Involved</a>
                         </li>
+                        <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger"
+                                href="./Newsletter/public/index.html">Newsletter Signup</a></li> -->
+
 
                     </ul>
                 </div>
@@ -228,9 +249,12 @@
             </div>
 
             <!-- *upcoming events start -->
+
             <h1>
                 Upcoming Events
             </h1>
+
+
             <div class="row">
 
                 <div class="col-md-12">
@@ -501,18 +525,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
     <script>
-        window.cookieconsent.initialise({
-            "palette": {
-                "popup": {
-                    "background": "#000"
-                },
-                "button": {
-                    "background": "#f1d600"
-                }
-            }
-        });
+        document.querySelector('.close').addEventListener('click', () => {
+            document.querySelector('.close').parentElement.parentElement.style.display = 'none';
+        })
     </script>
 </body>
 
