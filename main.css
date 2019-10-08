@@ -4,23 +4,41 @@ body {
   font-family: "San Francisco", Helvetica, Arial, sans-serif;
   font-size: 20px;
   overflow-x: hidden;
-
 }
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* * banner start */
 .banner {
-  padding-top: 5px;
+  /* padding-top: 5px;
   padding-bottom: 3px;
   box-sizing: border-box !important;
   min-width: 100%;
   /* background-color: #05c46b; */
-  background-color: #3f51b5;
+  /* background-color: #3f51b5;
   height: 45px;
-  position: fixed;
+  /* position: fixed; */
+  padding-top: 2px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: #5741d9;
+  display: flex;
+  overflow: hidden;
+}
+
+@media (max-width: 500px) {
+  .banner {
+    font-size: 8px;
+    /* word-spacing: 0.5px; */
+    z-index: -1;
+  }
+  .about .paragraph {
+    padding: 5px;
+  }
 }
 
 /* *banner end */
@@ -94,13 +112,13 @@ img {
 }
 
 #communities {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 100px 0;
 }
 
 @media (max-width: 767px) {
   #communities {
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     padding: 50px 0;
   }
 }
@@ -249,7 +267,7 @@ img {
 }
 
 #get-involved {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 90px 0;
 }
 
@@ -281,7 +299,7 @@ img {
 
 @media (max-width: 767px) {
   #get-involved {
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     padding: 50px 0;
   }
 }
@@ -332,14 +350,13 @@ img {
   color: black;
   padding: 0 1px;
   transition: color ease 0.3s;
-
 }
 
 .link-2::before,
 .link-2::after {
-  content: '';
+  content: "";
   position: absolute;
-  background-color: #00B388;
+  background-color: #00b388;
   z-index: -1;
   height: 5%;
 }
@@ -381,14 +398,14 @@ img {
 
 .threedbutton {
   border-color: #1e1e28;
-  border-radius: .25rem;
-  border-width: .25rem !important;
+  border-radius: 0.25rem;
+  border-width: 0.25rem !important;
   box-shadow: -8px 8px 0 #1e1e28;
   color: #ffffff;
   font-size: 1.25rem;
   font-weight: 700;
   padding: 8px 32px;
-  transition: transform .2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .threedbutton-block {
