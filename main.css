@@ -20,19 +20,20 @@ body {
   /* background-color: #3f51b5;
   height: 45px;
   /* position: fixed; */
+  /* position: fixed; */
   padding-top: 2px;
-  background-color: #fff;
+  background-color: #5741d9;
   text-align: center;
   font-size: 15px;
   font-weight: 700;
-  color: #5741d9;
+  color: #fff;
   display: flex;
   overflow: hidden;
 }
 
 @media (max-width: 500px) {
   .banner {
-    font-size: 8px;
+    font-size: 12px;
     /* word-spacing: 0.5px; */
     z-index: -1;
   }
