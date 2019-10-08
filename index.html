@@ -405,7 +405,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <img class="card-img-top" src="images/blockchain-event.svg" alt="Project Image">
+                                <img class="card-img-top" data-src="images/blockchain-event.svg" alt="Project Image" >
                                 <div class="card-body">
                                     <h5 class="card-title">Blockchain 101</h5>
                                     <p class="card-text">
@@ -527,7 +527,19 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
     <script>
-     
+      if('loading' in HTMLImageElement.prototype){
+         //* if lazy loading supported
+          const images=document.querySelectorAll('img[loading="lazy"]')
+          images.forEach(img =>{
+              img.src=img.dataset.src;
+          })
+      }else{
+         //* if not supported
+
+          const script=document.createElement('script');
+          script.src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes-umd.min.js"
+          document.body.appendChild(script);
+      }
     </script>
 </body>
 
